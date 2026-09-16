@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-      - run: echo " This is First stepp"
+        run: echo " This is First stepp"
       - name: :Print God bye
-      - run:  echo "Good bye.....workflow completed"
+        run:  echo "Good bye.....workflow completed"
     
