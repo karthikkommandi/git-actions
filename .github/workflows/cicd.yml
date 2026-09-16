@@ -5,7 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-        run: echo " This is First stepp"
+        run: | 
+          echo " This is First step"
+          echo " We can add multiple statemnets using pipe"
       - name: :Print God bye
         run:  echo "Good bye.....workflow completed"
     
